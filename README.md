@@ -33,9 +33,6 @@ This can be intimidating, but have no fear, Git is smart when it comes to mergin
 1. Remove the changes made on the main branch by deleting all of the content below the `=======` and above `>>>>>>> main`.
 1. Next, remove the merge conflict markers by deleting the following lines:
    ```
-   <<<<<<< my-resume
-   =======
-   >>>>>>> main
    ```
 1. With the merge conflict markers removed, click **Mark as resolved**.
 1. Finally, click **Commit merge**.
